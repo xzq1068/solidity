@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "bAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "callB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/xzq_6_contract_invoker.sol": "A"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/xzq_6_contract_invoker.sol": {
+			"keccak256": "0x54db2a48f6fb26e34eeb543bad0f240e80d68bad25709a731c37bdca161b2e6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2b5801bd60fe281e225cca8c7b2a50c732b88f9d5b5307ed581ddadbe3834e88",
+				"dweb:/ipfs/QmTLPSnRdGujVM8xGzxx9pceEcCXc1F84ug9MfQRNunkz4"
+			]
+		}
+	},
+	"version": 1
+}
