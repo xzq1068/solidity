@@ -9,6 +9,51 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "addNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "length",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -22,6 +67,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "removeLast",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -53,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/xzq_5_ArrayExample.sol": {
-			"keccak256": "0xabb342d7fba88bf7651fad3af049ab1e077ce86bd1d1f0ad4b8b9853ed962346",
+			"keccak256": "0xebb8e6eeb28bc4240ae008b18fd6bbced6d5fe2c0c690812b719f8e706f7f245",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://97e7345d99a2ad8a6a0e4147c5afebb611b60e9c76a3c162b040e5d2aa8ac898",
-				"dweb:/ipfs/QmcTRKwV2nRWpgCYZzW7vuTv35aSgq1DKgHFDvHhmD4jRL"
+				"bzz-raw://cd4dbae2815ec7284d9cc4b49beb92f91676dd533ac5c19b3d555e34e8a857db",
+				"dweb:/ipfs/QmeGJChVXoySW2fHaNrFqHH1D5gLAGVwExKyxCCaNzDw2e"
 			]
 		}
 	},
